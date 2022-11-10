@@ -34,7 +34,7 @@ body {
   align-items: center;
   align-content: space-around;
   justify-content: center;
-  box-shadow: 4px 4px 10px #aaaaaa;
+  box-shadow: 4px 5px 15px #aaaaaa;
   font-family: "Montserrat", sans-serif;
 }
 .menu-box p {
@@ -126,4 +126,25 @@ button {
   background-color: #126e82;
   color: #132c33;
   font-family: "Montserrat", sans-serif;
+}
+
+/**********EXTRA SMALL DEVICES ONLY**********/
+@media (max-width: 767px) {
+  .footer {
+    position: fixed;
+    padding: 10px;
+    height: 150px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .link-footer {
+    padding: 5px;
+    font-size: 20px;
+    width: 150px;
+  }
+  .main {
+    position: absolute;
+    left: 76%;
+    top: 45%;
+  }
 }
