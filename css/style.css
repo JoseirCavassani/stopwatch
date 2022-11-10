@@ -1,0 +1,129 @@
+/*** RESET CSS ***/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  font-size: 100%;
+  font-family: "Montserrat", sans-serif;
+}
+/*** END RESET CSS ***/
+
+/*** INDEX ***/
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+.main {
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+
+  position: absolute;
+  left: 40%;
+  top: 30%;
+  right: 40%;
+  bottom: 40%;
+}
+.menu-box {
+  background-color: #126e82;
+  width: 560px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-around;
+  justify-content: center;
+  box-shadow: 4px 4px 10px #aaaaaa;
+  font-family: "Montserrat", sans-serif;
+}
+.menu-box p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  position: relative;
+  bottom: 15px;
+  color: #132c33;
+}
+.menu {
+  position: relative;
+  top: 10px;
+}
+.time {
+  background-color: #132c33;
+  width: 600px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-around;
+  justify-content: center;
+  color: blanchedalmond;
+  position: relative;
+  top: 5px;
+}
+.content {
+  color: #126e82;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2em;
+}
+#hours,
+#min,
+#sec,
+#mil {
+  font-size: 80px;
+  padding: 15px;
+  font-family: "Montserrat", sans-serif;
+}
+button {
+  position: relative;
+  top: 15px;
+  width: 140px;
+  margin: 15px;
+  border: none;
+}
+#button-start,
+#button-stop,
+#button-reset {
+  background-color: transparent;
+  transition: 40ms;
+}
+
+#button-start:hover,
+#button-stop:hover,
+#button-reset:hover {
+  transform: scale(2.5);
+  transition: 40ms;
+}
+
+.footer {
+  background-color: #132c33;
+  color: #126e82;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+}
+.link-footer {
+  text-decoration: none;
+  color: #126e82;
+  border: 1px solid #126e82;
+  padding: 10px;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+.link-footer:hover {
+  transform: scale(1.2);
+  transition: 40ms;
+  background-color: #126e82;
+  color: #132c33;
+  font-family: "Montserrat", sans-serif;
+}
