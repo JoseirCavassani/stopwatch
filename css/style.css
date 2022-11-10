@@ -145,7 +145,8 @@ button {
   }
   .main {
     position: absolute;
-    left: 76%;
+    left: 25%;
     top: 45%;
+    width: 100vw;
   }
 }
