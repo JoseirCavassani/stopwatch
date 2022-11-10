@@ -132,6 +132,7 @@ button {
 @media (max-width: 767px) {
   .footer {
     position: fixed;
+    bottom: 0;
     padding: 10px;
     height: 150px;
     display: flex;
