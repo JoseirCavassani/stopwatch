@@ -20,7 +20,6 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: whitesmoke;
 }
 .menu-box {
   background-color: #126e82;
@@ -128,12 +127,21 @@ button {
 /**********EXTRA SMALL DEVICES ONLY**********/
 @media (max-width: 767px) {
   .main {
-    position: absolute;
-    left: 27%;
-    top: 45%;
-    width: 100vw;
+    width: 100vh;
+    height: 200vh;
+    margin: auto;
   }
-
+  .menu-box {
+    width: 700px;
+    height: 400px;
+  }
+  .time {
+    width: 790px;
+    height: 180px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
   .footer {
     position: fixed;
     bottom: 0;
